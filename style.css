@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "yekan";
+    src: url(./Yekan.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "yekan";
+}
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.pan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.range {
+    margin-top: 5px;
+}
+
+.left-right-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
